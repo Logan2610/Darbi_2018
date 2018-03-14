@@ -1,4 +1,4 @@
-update=08.03.2018 11:22:24
+update=14.03.2018 17:28:19
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=Bibliotēka
+LibDir=Bibliotēka;Bibliotēka
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -62,3 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=Bibliotēka/bcm586ds
+LibName34=Bibliotēka/dmc20101
