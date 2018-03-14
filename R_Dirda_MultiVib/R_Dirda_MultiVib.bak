@@ -1,0 +1,223 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D?
+U 1 1 5A8E904A
+P 2650 2750
+F 0 "D?" H 2650 2850 50  0000 C CNN
+F 1 "LED" H 2650 2650 50  0000 C CNN
+F 2 "" H 2650 2750 50  0001 C CNN
+F 3 "" H 2650 2750 50  0001 C CNN
+	1    2650 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5A8E90A6
+P 3550 2750
+F 0 "D?" H 3550 2850 50  0000 C CNN
+F 1 "LED" H 3550 2650 50  0000 C CNN
+F 2 "" H 3550 2750 50  0001 C CNN
+F 3 "" H 3550 2750 50  0001 C CNN
+	1    3550 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A8E915E
+P 2650 3200
+F 0 "R?" V 2730 3200 50  0000 C CNN
+F 1 "R" V 2650 3200 50  0000 C CNN
+F 2 "" V 2580 3200 50  0001 C CNN
+F 3 "" H 2650 3200 50  0001 C CNN
+	1    2650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A8E91B0
+P 3000 3200
+F 0 "R?" V 3080 3200 50  0000 C CNN
+F 1 "R" V 3000 3200 50  0000 C CNN
+F 2 "" V 2930 3200 50  0001 C CNN
+F 3 "" H 3000 3200 50  0001 C CNN
+	1    3000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A8E91F7
+P 3250 3200
+F 0 "R?" V 3330 3200 50  0000 C CNN
+F 1 "R" V 3250 3200 50  0000 C CNN
+F 2 "" V 3180 3200 50  0001 C CNN
+F 3 "" H 3250 3200 50  0001 C CNN
+	1    3250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A8E922C
+P 3550 3200
+F 0 "R?" V 3630 3200 50  0000 C CNN
+F 1 "R" V 3550 3200 50  0000 C CNN
+F 2 "" V 3480 3200 50  0001 C CNN
+F 3 "" H 3550 3200 50  0001 C CNN
+	1    3550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery BT?
+U 1 1 5A8E9273
+P 1700 3500
+F 0 "BT?" H 1800 3600 50  0000 L CNN
+F 1 "Battery" H 1800 3500 50  0000 L CNN
+F 2 "" V 1700 3560 50  0001 C CNN
+F 3 "" V 1700 3560 50  0001 C CNN
+	1    1700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 5A8E92BC
+P 2850 3750
+F 0 "C?" H 2860 3820 50  0000 L CNN
+F 1 "CP1_Small" H 2860 3670 50  0000 L CNN
+F 2 "" H 2850 3750 50  0001 C CNN
+F 3 "" H 2850 3750 50  0001 C CNN
+	1    2850 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 5A8E9336
+P 3400 3750
+F 0 "C?" H 3410 3820 50  0000 L CNN
+F 1 "CP1_Small" H 3410 3670 50  0000 L CNN
+F 2 "" H 3400 3750 50  0001 C CNN
+F 3 "" H 3400 3750 50  0001 C CNN
+	1    3400 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L BC548 Q?
+U 1 1 5A8E938D
+P 2750 4250
+F 0 "Q?" H 2950 4325 50  0000 L CNN
+F 1 "BC548" H 2950 4250 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2950 4175 50  0001 L CIN
+F 3 "" H 2750 4250 50  0001 L CNN
+	1    2750 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L BC548 Q?
+U 1 1 5A8E940A
+P 3450 4250
+F 0 "Q?" H 3650 4325 50  0000 L CNN
+F 1 "BC548" H 3650 4250 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 3650 4175 50  0001 L CIN
+F 3 "" H 3450 4250 50  0001 L CNN
+	1    3450 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2900 2650 3050
+Wire Wire Line
+	2650 3350 2650 4050
+Wire Wire Line
+	2750 3750 2650 3750
+Connection ~ 2650 3750
+Wire Wire Line
+	1700 2600 3550 2600
+Wire Wire Line
+	3000 3050 3000 2600
+Connection ~ 3000 2600
+Wire Wire Line
+	3550 3050 3550 2900
+Wire Wire Line
+	2950 3750 3000 3750
+Wire Wire Line
+	3000 3350 3000 4150
+Wire Wire Line
+	1700 2600 1700 3300
+Connection ~ 2650 2600
+Wire Wire Line
+	1700 3700 1700 4600
+Wire Wire Line
+	2650 4600 2650 4450
+Wire Wire Line
+	3250 3050 3250 2600
+Connection ~ 3250 2600
+Wire Wire Line
+	3250 3350 3250 4050
+Wire Wire Line
+	3250 3750 3350 3750
+Wire Wire Line
+	3550 3350 3550 4050
+Wire Wire Line
+	3550 3750 3500 3750
+Wire Wire Line
+	3250 4050 3050 4050
+Wire Wire Line
+	3050 4050 3050 4250
+Wire Wire Line
+	3050 4250 2950 4250
+Connection ~ 3250 3750
+Connection ~ 3000 3750
+Connection ~ 2650 4600
+Wire Wire Line
+	3550 4600 3550 4450
+Connection ~ 3550 3750
+Wire Wire Line
+	3250 4150 3250 4250
+Wire Wire Line
+	3000 4150 3250 4150
+Wire Wire Line
+	1700 4600 3550 4600
+$EndSCHEMATC
