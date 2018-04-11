@@ -1,0 +1,83 @@
+Cmp-Mod V01 Created by PcbNew   date = 11.04.2018 17:51:46
+
+BeginCmp
+TimeStamp = 5ACE18F4
+Path = /5AAA39F8
+Reference = C1;
+ValeurCmp = 20uF;
+IdModule  = Capacitors_THT:CP_Axial_L18.0mm_D8.0mm_P25.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACE191B
+Path = /5AAA3B32
+Reference = C2;
+ValeurCmp = 50uF;
+IdModule  = Capacitors_THT:CP_Axial_L21.0mm_D8.0mm_P28.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACE1942
+Path = /5AAA3A87
+Reference = C3;
+ValeurCmp = 20uF;
+IdModule  = Capacitors_THT:CP_Axial_L18.0mm_D8.0mm_P25.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACE19A9
+Path = /5AAA41DE
+Reference = P1;
+ValeurCmp = Signal_In;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACE1A22
+Path = /5AAA4984
+Reference = Q1;
+ValeurCmp = BC548;
+IdModule  = TO_SOT_Packages_THT:TO-92_Molded_Narrow;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACE1A38
+Path = /5AAA3839
+Reference = R1;
+ValeurCmp = 22k;
+IdModule  = Resistors_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACE1A4E
+Path = /5AAA3911
+Reference = R2;
+ValeurCmp = 6.8k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACE1A64
+Path = /5AAA38A8
+Reference = R3;
+ValeurCmp = 4.7k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACE1A7A
+Path = /5AAA3950
+Reference = R4;
+ValeurCmp = 1.8k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACE1A10
+Path = /5AAA4147
+Reference = P2;
+ValeurCmp = Signal_Out;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm;
+EndCmp
+
+EndListe

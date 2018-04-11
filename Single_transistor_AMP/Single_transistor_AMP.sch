@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Single_transistor_AMP-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -51,7 +52,7 @@ U 1 1 5AAA3839
 P 2050 2050
 F 0 "R1" V 2130 2050 50  0000 C CNN
 F 1 "22k" V 2050 2050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 1980 2050 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 1980 2050 50  0001 C CNN
 F 3 "https://eu.mouser.com/ProductDetail/KOA-Speer/PCF1C223K?qs=sGAEpiMZZMvmQ%252bOLa8n%2fM5j4K4luc8TGf47jHbbEHAQ%3d" H 2050 2050 50  0001 C CNN
 	1    2050 2050
 	1    0    0    -1  
@@ -62,7 +63,7 @@ U 1 1 5AAA38A8
 P 2850 2050
 F 0 "R3" V 2930 2050 50  0000 C CNN
 F 1 "4.7k" V 2850 2050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2780 2050 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 2780 2050 50  0001 C CNN
 F 3 "https://eu.mouser.com/ProductDetail/TE-Connectivity-CGS/CCR14K7KB?qs=sGAEpiMZZMvmQ%252bOLa8n%2fM1J18KOAUrKKoi7RPl0a064%3d" H 2850 2050 50  0001 C CNN
 	1    2850 2050
 	1    0    0    -1  
@@ -73,7 +74,7 @@ U 1 1 5AAA3911
 P 2050 3250
 F 0 "R2" V 2130 3250 50  0000 C CNN
 F 1 "6.8k" V 2050 3250 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1980 3250 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 1980 3250 50  0001 C CNN
 F 3 "https://eu.mouser.com/ProductDetail/KOA-Speer/CF1-2C682J?qs=sGAEpiMZZMu61qfTUdNhGwS6QsvC%2fPBo%2fKlVlyE04EE%3d" H 2050 3250 50  0001 C CNN
 	1    2050 3250
 	1    0    0    -1  
@@ -84,7 +85,7 @@ U 1 1 5AAA3950
 P 2850 3250
 F 0 "R4" V 2930 3250 50  0000 C CNN
 F 1 "1.8k" V 2850 3250 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2780 3250 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 2780 3250 50  0001 C CNN
 F 3 "https://eu.mouser.com/ProductDetail/KOA-Speer/CF1-2C182J?qs=sGAEpiMZZMu61qfTUdNhG9DHomMWbutb28oLKcQar3E%3d" H 2850 3250 50  0001 C CNN
 	1    2850 3250
 	1    0    0    -1  
@@ -207,7 +208,7 @@ U 1 1 5AAA4147
 P 3850 2350
 F 0 "P2" H 3850 2450 50  0000 C CNN
 F 1 "Signal_Out" H 3850 2150 50  0000 C CNN
-F 2 "" H 3850 2350 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 3850 2350 50  0001 C CNN
 F 3 "" H 3850 2350 50  0001 C CNN
 	1    3850 2350
 	1    0    0    -1  
@@ -218,7 +219,7 @@ U 1 1 5AAA41DE
 P 1150 2700
 F 0 "P1" H 1150 2800 50  0000 C CNN
 F 1 "Signal_In" H 1150 2500 50  0000 L CNN
-F 2 "" H 1150 2700 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 1150 2700 50  0001 C CNN
 F 3 "" H 1150 2700 50  0001 C CNN
 	1    1150 2700
 	-1   0    0    -1  
@@ -273,4 +274,45 @@ F 3 "" H 1350 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1350 3000 1350 2800
+$Comp
+L +12V #PWR07
+U 1 1 5ACE436A
+P 4400 2900
+F 0 "#PWR07" H 4400 2750 50  0001 C CNN
+F 1 "+12V" H 4400 3040 50  0000 C CNN
+F 2 "" H 4400 2900 50  0001 C CNN
+F 3 "" H 4400 2900 50  0001 C CNN
+	1    4400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5ACE4392
+P 4400 3450
+F 0 "#PWR08" H 4400 3200 50  0001 C CNN
+F 1 "GND" H 4400 3300 50  0000 C CNN
+F 2 "" H 4400 3450 50  0001 C CNN
+F 3 "" H 4400 3450 50  0001 C CNN
+	1    4400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J1
+U 1 1 5ACE4407
+P 4700 3150
+F 0 "J1" H 4700 3250 50  0000 C CNN
+F 1 "Conn_01x02" H 4700 2950 50  0000 C CNN
+F 2 "Connectors:Banana_Jack_2Pin" H 4700 3150 50  0001 C CNN
+F 3 "" H 4700 3150 50  0001 C CNN
+	1    4700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3150 4400 3150
+Wire Wire Line
+	4400 3150 4400 2900
+Wire Wire Line
+	4500 3250 4400 3250
+Wire Wire Line
+	4400 3250 4400 3450
 $EndSCHEMATC
