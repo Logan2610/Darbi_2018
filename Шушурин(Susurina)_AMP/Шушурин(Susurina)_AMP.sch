@@ -1034,13 +1034,13 @@ $EndComp
 $Comp
 L Conn_01x02 Output1
 U 1 1 5AF69FF7
-P 7700 3250
-F 0 "Output1" H 7700 3350 50  0000 C CNN
-F 1 "Conn_01x02" H 7700 3050 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 7700 3250 50  0001 C CNN
-F 3 "" H 7700 3250 50  0001 C CNN
-	1    7700 3250
-	1    0    0    -1  
+P 7700 3350
+F 0 "Output1" H 7700 3450 50  0000 C CNN
+F 1 "Conn_01x02" H 7700 3150 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 7700 3350 50  0001 C CNN
+F 3 "" H 7700 3350 50  0001 C CNN
+	1    7700 3350
+	1    0    0    1   
 $EndComp
 $Comp
 L PWR_FLAG #FLG012
